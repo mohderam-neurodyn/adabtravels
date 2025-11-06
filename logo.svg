@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <rect width="400" height="120" rx="16" fill="#ffffff"/>
+  <path d="M30 90 C120 20, 260 20, 360 10" stroke="#0b3b66" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M200 36 L260 12 L248 30 L220 54 L200 72" fill="#ffb020"/>
+  <text x="60" y="78" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#0b3b66" font-weight="700">ADAB</text>
+  <text x="60" y="100" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b7280">A Unit of Eram Enterprises</text>
+</svg>

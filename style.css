@@ -1,0 +1,49 @@
+
+/* Simple, clean responsive CSS for ADAB Travels landing page */
+:root{
+  --bg:#f5f8ff;
+  --accent:#0b3b66;
+  --accent-2:#ffb020;
+  --muted:#6b7280;
+  --container:1100px;
+  --radius:12px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--accent); -webkit-font-smoothing:antialiased;}
+.container{max-width:var(--container);margin:0 auto;padding:28px;}
+.header-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;}
+.brand{display:flex;align-items:center;gap:12px;}
+.logo{display:block}
+.brand-text .company{font-weight:800;font-size:18px}
+.brand-text .sub{font-size:12px;color:var(--muted);margin-top:2px}
+.nav a{margin-left:18px;text-decoration:none;color:var(--accent);font-weight:600}
+.nav .btn{background:var(--accent);color:white;padding:8px 12px;border-radius:8px}
+.hero{padding:60px 0;text-align:center}
+.hero h1{font-size:34px;margin:0 0 12px}
+.lead{font-size:18px;color:var(--muted);margin:0 0 20px}
+.italic{font-style:italic;color:var(--accent-2);font-weight:700}
+.cta{display:flex;gap:12px;justify-content:center;margin-top:18px}
+.primary-btn{background:var(--accent);color:white;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700}
+.outline-btn{border:2px solid var(--accent);color:var(--accent);padding:10px 18px;border-radius:10px;text-decoration:none}
+.quick-contact{margin-top:16px;color:var(--muted)}
+.services{padding:40px 0}
+.services h2{font-size:24px;margin-bottom:18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:white;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(11,59,102,0.06)}
+.card h3{margin:0 0 8px}
+.about{padding:24px 0}
+.contact{padding:40px 0}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact-card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(11,59,102,0.06)}
+.contact-form{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(11,59,102,0.04)}
+.contact-form label{display:block;margin-top:10px;font-size:13px;color:var(--muted)}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;margin-top:6px;border:1px solid #e6eef8;border-radius:8px}
+.small{font-size:12px;color:var(--muted);margin-top:8px}
+.site-footer{background:#032034;color:#dbeafe;padding:18px 0;margin-top:28px}
+.site-footer .container{display:flex;justify-content:space-between;align-items:center}
+@media(max-width:800px){
+  .contact-grid{grid-template-columns:1fr}
+  .nav{display:none}
+  .hero h1{font-size:28px}
+  .header-row{padding:10px}
+}
